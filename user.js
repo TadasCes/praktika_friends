@@ -14,10 +14,9 @@ class User {
           friendName = friend.name;
       }
 
-    if (!this.friendList.find(fr => fr.name === friendName)) {
+    if (!this.friendList.find(fr => fr === friendName)) {
         this.friendList.push(friendName);
         if (friend.addFriend) {
-            console.log(this.name)
             friend.addFriend(this.name)
         }
     } 

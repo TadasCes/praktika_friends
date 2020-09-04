@@ -1,1 +1,0 @@
-{"name":"Petras","friendList":["Paulius","Paulius","Paulius"],"password":"automobilis","email":"petras@gmail.com","age":48,"job":"stalius","city":"Birzai"}
